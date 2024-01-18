@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio - Game Developer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <nav>
+          <ul>
+            <li><a href="/contact">Home</a></li>
+            <li><a href="/intro.html">About Me</a></li>
+            <li><a href="/services.html">Services</a></li>
+            <li><a href="/resume.html">Resume</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main">
+        <div class="hamburger">
+            <img class="ham" src = "ham.png" width = 23px>
+            <img class="cross" src = "close.svg" width = 23px>
+          </div>
+        <div class="contactForm">
+          <h1>Contact me For work/general queries</h1>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="email"
+                class="form-control"
+                id="name"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                Please enter your real name.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="name" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="name"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+                We'll never share your email and phone with anyone else.
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="clientphone" class="form-label">Phone</label>
+              <input type="phone" class="form-control" id="clientphone" />
+            </div>
+            <div class="mb-3" id="form-check">
+              <input type="checkbox" class="form-check-input" id="isclient" />
+              <label class="form-check-label" for="isclient"
+                >Work with us</label
+              >
+            </div>
+            <div class="mb-3" id="userquery">
+              <label for="query" class="form-label">Your query</label>
+              <input
+                type="email"
+                class="form-control"
+                id="query"
+                aria-describedby="emailHelp"
+              />
+              <div id="emailHelp" class="form-text">
+              </div>
+            </div>
+            <button type="submit" class="btn btn-sm">Submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
